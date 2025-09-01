@@ -1,0 +1,8 @@
+V=int(input("valor do produto:"))
+P=int(input("valor do desconto(%):"))
+#processamento
+D=(P/100)*V
+preço_final=V-D
+#saida
+print("desconto:",D)
+print("preço final:",preço_final)
