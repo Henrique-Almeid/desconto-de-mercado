@@ -1,0 +1,11 @@
+#entrada com os dados
+P=float(input("valor do produto:"))
+D=float(input("valor de desconto (%) :"))
+#processamento 
+X=(P*D)/100
+valor_final=P-X
+#saida 
+print("Valor do produto:", P)
+print("Desconto em (%):",D)
+print("Valor do desconto :", X)
+print("Valor final com desconto:", valor_final)
