@@ -1,0 +1,9 @@
+D=int(input("me fale um numero :"))
+if D % 3 == 0 and D % 5 == 0:
+    print("Divisível por 3 e 5")
+elif D % 3 == 0:
+    print("Apenas por 3")
+elif D % 5 == 0:
+    print("Apenas por 5")
+else:
+    print("Não é divisível por 3 nem por 5")
