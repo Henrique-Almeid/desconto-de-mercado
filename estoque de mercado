@@ -1,0 +1,6 @@
+N=int(input("numeros de produtos no estoque:"))
+R=int(input("qual o valor do produto:"))
+#processamento
+valor_do_estoque=N*R
+#saida 
+print("valor do estoque:",valor_do_estoque)
