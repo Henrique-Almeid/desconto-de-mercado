@@ -1,0 +1,7 @@
+V=int(input("diga um numero:"))
+if V>0:
+    print("numero positivo")
+elif V<0 :
+    print("numero negativo")
+else:
+    print("zero")
