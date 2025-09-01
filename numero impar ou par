@@ -1,0 +1,8 @@
+V=int(input("digite um numero:"))
+#processamento
+X=int(V%2)
+#saida
+if X == 0:
+    print("O número é par")
+else:
+    print("O número é ímpar")
