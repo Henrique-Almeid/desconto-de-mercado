@@ -1,0 +1,8 @@
+V=int(input("valor do produto:"))
+C=int(input("valor de custo:"))
+#processamento
+lucro=V-C
+porcentagem=(lucro/V)*100
+#saida 
+print("lucro:",lucro)
+print("margem de lucro (%):",porcentagem)
