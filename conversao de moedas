@@ -1,0 +1,6 @@
+X=float(input("valor em reias :"))
+D=5.20
+#processamento
+C=X/D 
+#saida 
+print("resultado da conversao :",C)
