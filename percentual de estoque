@@ -1,0 +1,8 @@
+N=int(input("estoque atual:"))
+P=int(input("novos produtos:"))
+#processamento
+novo_estoque=N+P
+porcentagem=(N/P)*100
+#saida 
+print("novos estoque:",novo_estoque)
+print("aumento de estoque(%):",porcentagem)
