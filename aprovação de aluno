@@ -1,0 +1,7 @@
+Nota=int(input("Digite a nota do aluno (0 a 10):"))
+if Nota>=6:
+    print("aprovado")
+elif Nota>=4 and Nota<6:
+    print("recuperação")
+else:
+    print("reprovado")
